@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.yourname.proton-drive",
+  "name": "Proton Drive",
+  "version": "1.0.0",
+  "author": "Your name",
+  "license": "MIT",
+  "description": "Statut Proton Drive dans la barre + actions rapides (login, upload, download) via le CLI officiel proton-drive.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Proton Drive",
+    "category": "Network",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
